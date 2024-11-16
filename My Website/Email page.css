@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top: 30px;
+
+    font-family: arial; 
+    background-color: rgb(239, 232, 232);
+    border:2px solid gray;
+    
+}
+.login {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+.sign-up {
+    font-size: 17px;
+    font-weight: bold;
+}
+.ask {
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(96, 94, 94)
+}
+.User-Name,
+.Email-Address,
+.Password {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+    display: inline-block;
+}
+.Userbutton,
+.emailbutton ,
+.Passwordbutton {
+   width: 20rem;
+   height: 30px;
+   padding-left: 8px;
+   border-radius: 8px;
+   font-size: 14px;
+   display: block;
+}
+.email-warning-msg {
+    color: rgb(232, 35, 35);
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.Password-container {
+    margin-top: -20px;
+}
+.forget-password {
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 175px;
+    color: blueviolet;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.User-name-warning-msg,
+.password-warning-msg {
+    color: rgb(232, 35, 35);
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.mandatary {
+    color: rgb(232, 35, 35);
+}
+.radio {
+    display: inline-block;
+}
+.Remember-Me {
+    display: inline-block;
+}
+.radio-remember {
+    margin-left: -209px;
+    margin-top: 15px;  
+}
+.log-in {
+    font-size: 30px;
+    font-weight: bold;
+
+    padding: 5px 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: orangered;
+    cursor: pointer;
+
+}

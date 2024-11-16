@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    background-color: black;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-section{
+    width: 180px;
+    margin-top: 5px;
+}
+.amazon-logo{
+    width: 100px;
+}
+
+.middle-section{
+    flex: 1;
+    max-width: 850px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.search-button{
+    flex: 1;
+    width: 0;
+    font-size: 16px;
+    height: 38px;
+    padding-left: 15px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.search-icon{
+    background-color: rgb(236, 156, 8);
+    border: none;
+    padding: 7px 12px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink:0;
+}
+.search-icon img{
+    width: 23px; 
+    height: 23px; 
+}
+
+.right-section{
+    display: flex;
+    justify-content: end;
+}
+
+.email {
+    font-family: arial;
+    font-size: 15px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    text-decoration:none;
+
+}
