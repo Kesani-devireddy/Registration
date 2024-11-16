@@ -1,0 +1,209 @@
+.Right-Section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.Left-Section{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    background-color: rgb(245, 241, 241);
+    margin-top: -8px;
+}
+.LOGO-Register-Swarnandhra {
+    margin-right: 66px;
+}
+.LOGO {
+    padding: 25px;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-right: 10px;
+    box-shadow: 3px 10px 23px -6px rgb(164, 159, 159); 
+    
+}
+.about {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.Register {
+    font-family: Roboto,Arial;
+    color: orangered;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 0px;
+   
+}
+.Swarnandhra {
+    font-family: Roboto,Arial;
+    font-size: 22px;
+}
+.FirstName,
+.SecondName,
+.Cityyoulivein,
+.CourseInterestedin{
+    width: 300px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 24px;
+    
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.MobileNumber {
+    width: 255px;
+    height: 40px;
+    margin-top: 50px;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 24px;
+    padding-bottom: 2px;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.CountryNumber {
+    width: 37px;
+    height: 41px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: -4.5px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 10px;
+}
+.CourseInterestedin {
+    width: 310px;
+    height: 40px;
+    margin-right:360px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+
+    display: flex;
+    justify-content: right;
+}
+
+.TermsandConditions {
+    font-family: Roboto,Arial;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right:237px;
+    margin-top: 30px;
+}
+.Termsofuse {
+    color: rgb(4, 177, 246);
+    font-family: Roboto,Arial;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Termsofuse:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Login {
+    font-family: Roboto,Arial;
+    color: rgb(231, 64, 3);
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 200px;
+}
+.Login:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.submit-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    background-color:  rgb(231, 64, 3);
+    color: white;
+    cursor: pointer;
+}
+
+.overall {
+    display: grid;
+    grid-template-columns: 850px 1fr;
+}
+
+.Helps-in-admission {
+    font-family: Roboto,Arial;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 0px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+.Brochure-Details,
+.Shortlist-Apply,
+.Scholarships{
+    width: 60px;
+    height: 40px;
+    padding: 50px;
+    background-color: white;
+    margin-right: 25px;
+    border-radius: 4px;    
+}
+.Check-Detailed-Fees,
+.Counselling,
+.Application-Deadlines{
+    width: 60px;
+    height: 40px;
+    padding: 50px;
+    background-color: white;
+    margin-right: 25px;
+    border-radius: 4px;
+}
+
+.pictures {
+    position: relative;
+    display: inline-block;
+}
+
+.Brochure,
+.Shortlist,
+.Counsel,
+.Scholar{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+
+    font-family: Roboto ,Arial;
+    font-size: 14px;
+    font-weight: 700;
+}
+.Fees {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: Roboto ,Arial;
+    font-size: 13px;
+    font-weight: 700;
+}
+.Application {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-family: Roboto ,Arial;
+    font-size: 14px;
+    font-weight: 700;
+}
